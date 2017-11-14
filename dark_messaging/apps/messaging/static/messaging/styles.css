@@ -1,0 +1,14 @@
+body{
+    background-color: black !important;
+}
+.opacity{
+    background-image: -webkit-gradient(linear, left top, left bottom, from(blue), to(black));
+    background-image: -webkit-linear-gradient(top, blue, black`);
+    background-image: -moz-linear-gradient(top, blue, black`);
+    background-image: linear-gradient(to bottom, blue, black`);
+}
+
+.black{
+    background-color: black !important;
+    opacity: .6;
+}

@@ -44,3 +44,7 @@ def logout(request):
 
 def home(request):
     return render(request, 'messaging/home.html')
+
+
+def register(request):
+    return render(request, 'messaging/register.html')
